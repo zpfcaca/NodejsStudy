@@ -20,7 +20,29 @@
 
 
 
+
+
+
+##在树莓派ubuntu16.04上安装nodejs##
+
+
+
+##在树莓派ubuntu16.04上安装mongodb##
+
+
+
+##node.js与mongodb交互##
+1. 创建 
+2. 插查删替
+3.
+
+
+
+
+
 ##重点说明##
+1. mongodb类似于json数据格式
+
 
 
 
