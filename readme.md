@@ -1,6 +1,6 @@
 #nodejs学习心得#
 
-##在32位win7安装nodjs##
+##在32位win7安装nodejs##
 ###步骤###
 1. 下载node.js安装程序
 2. start->All Programes->Accessories->Command Prompt->右键（使用管理员权限打开）
@@ -42,6 +42,9 @@
 
 ##重点说明##
 1. mongodb类似于json数据格式
+2. node.js与python进行交互
+3. node.js进行socket通讯
+
 
 
 
