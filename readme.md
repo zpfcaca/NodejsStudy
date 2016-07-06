@@ -16,6 +16,8 @@
 3. 在安装目录下：mongod --dbpath D:\Yanjie\SourceCode\NodejsStudy\db  --logpath D:\Yanjie\SourceCode\NodejsStudy\log\MongoDB.log --install --serviceName "MongoDB" --journal --storageEngine=mmapv1
 4. 启动服务:net start MongoDB
 5. 打开mongo.exe就可以在控制台输入命令
+6. 命令熟悉请参照 http://www.cnblogs.com/liyonghui/p/mongodb.html
+
 
 
 ###重点说明###
