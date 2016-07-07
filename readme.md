@@ -33,10 +33,14 @@
 
 ##node.js与mongodb交互##
 1. 创建 
-2. 插查删替
+<!-- 2. 插查删替 -->
 3.
 
 
+##开发环境##
+1. 利用sublime Text3来写node.js
+2. sublime Text3 安装node.js插件
+3. 利用github shell来运行 一般是node **.js
 
 
 
