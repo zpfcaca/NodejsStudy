@@ -1,0 +1,37 @@
+2016-07-07T08:21:38.472+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2016-07-07T08:21:38.604+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2016-07-07T08:21:38.605+0800 I STORAGE  [thread1] Service running
+2016-07-07T08:21:38.605+0800 I CONTROL  [initandlisten] MongoDB starting : pid=3984 port=27017 dbpath=D:\Yanjie\SourceCode\NodejsStudy\db 32-bit host=HANL0265
+2016-07-07T08:21:38.605+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] db version v3.2.7
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] git version: 4249c1d2b5999ebbf1fdf3bc0e0e3b3ff5c0aaf2
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] modules: none
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] build environment:
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten]     distarch: i386
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten]     target_arch: i386
+2016-07-07T08:21:38.606+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\Yanjie\SourceCode\NodejsStudy\db", engine: "mmapv1", journal: { enabled: true } }, systemLog: { destination: "file", path: "D:\Yanjie\SourceCode\NodejsStudy\log\MongoDB.log" } }
+2016-07-07T08:21:39.218+0800 W -        [initandlisten] Detected unclean shutdown - D:\Yanjie\SourceCode\NodejsStudy\db\mongod.lock is not empty.
+2016-07-07T08:21:39.262+0800 I JOURNAL  [initandlisten] journal dir=D:\Yanjie\SourceCode\NodejsStudy\db\journal
+2016-07-07T08:21:39.263+0800 I JOURNAL  [initandlisten] recover begin
+2016-07-07T08:21:39.280+0800 I JOURNAL  [initandlisten] recover lsn: 804582
+2016-07-07T08:21:39.280+0800 I JOURNAL  [initandlisten] recover D:\Yanjie\SourceCode\NodejsStudy\db\journal\j._3
+2016-07-07T08:21:39.499+0800 I JOURNAL  [initandlisten] recover applying initial journal section with sequence number 885012
+2016-07-07T08:21:40.825+0800 I JOURNAL  [initandlisten] recover cleaning up
+2016-07-07T08:21:40.825+0800 I JOURNAL  [initandlisten] removeJournalFiles
+2016-07-07T08:21:40.826+0800 I JOURNAL  [initandlisten] recover done
+2016-07-07T08:21:40.890+0800 I JOURNAL  [durability] Durability thread started
+2016-07-07T08:21:40.922+0800 I JOURNAL  [journal writer] Journal writer thread started
+2016-07-07T08:21:41.031+0800 I CONTROL  [initandlisten] 
+2016-07-07T08:21:41.031+0800 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-07-07T08:21:41.031+0800 I CONTROL  [initandlisten] 
+2016-07-07T08:21:41.031+0800 I CONTROL  [initandlisten] 
+2016-07-07T08:21:41.032+0800 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-07-07T08:21:41.032+0800 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-07-07T08:21:41.032+0800 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-07-07T08:21:41.032+0800 I CONTROL  [initandlisten] 
+2016-07-07T08:22:45.688+0800 I COMMAND  [initandlisten] query admin.system.roles planSummary: EOF ntoreturn:0 ntoskip:0 keysExamined:0 docsExamined:0 cursorExhausted:1 keyUpdates:0 writeConflicts:0 numYields:0 nreturned:0 reslen:20 locks:{ Global: { acquireCount: { r: 10, W: 2 } }, MMAPV1Journal: { acquireCount: { r: 1, w: 3 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 141 } }, Database: { acquireCount: { r: 4 } }, Collection: { acquireCount: { R: 4 } } } 108ms
+2016-07-07T08:22:45.721+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-07-07T08:22:45.724+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/Yanjie/SourceCode/NodejsStudy/db/diagnostic.data'
+2016-07-07T08:22:45.896+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-07-07T08:22:46.199+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK

@@ -1,0 +1,63 @@
+2016-07-06T15:12:19.238+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2016-07-06T15:12:19.244+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2016-07-06T15:12:19.245+0800 I STORAGE  [thread1] Service running
+2016-07-06T15:12:19.246+0800 I CONTROL  [initandlisten] MongoDB starting : pid=29552 port=27017 dbpath=D:\Yanjie\SourceCode\NodejsStudy\db 32-bit host=HANL0265
+2016-07-06T15:12:19.246+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-07-06T15:12:19.246+0800 I CONTROL  [initandlisten] db version v3.2.7
+2016-07-06T15:12:19.247+0800 I CONTROL  [initandlisten] git version: 4249c1d2b5999ebbf1fdf3bc0e0e3b3ff5c0aaf2
+2016-07-06T15:12:19.247+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-07-06T15:12:19.247+0800 I CONTROL  [initandlisten] modules: none
+2016-07-06T15:12:19.247+0800 I CONTROL  [initandlisten] build environment:
+2016-07-06T15:12:19.247+0800 I CONTROL  [initandlisten]     distarch: i386
+2016-07-06T15:12:19.248+0800 I CONTROL  [initandlisten]     target_arch: i386
+2016-07-06T15:12:19.248+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\Yanjie\SourceCode\NodejsStudy\db", engine: "mmapv1", journal: { enabled: true } }, systemLog: { destination: "file", path: "D:\Yanjie\SourceCode\NodejsStudy\log\MongoDB.log" } }
+2016-07-06T15:12:19.263+0800 I JOURNAL  [initandlisten] journal dir=D:\Yanjie\SourceCode\NodejsStudy\db\journal
+2016-07-06T15:12:19.263+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2016-07-06T15:12:19.299+0800 I JOURNAL  [durability] Durability thread started
+2016-07-06T15:12:19.299+0800 I JOURNAL  [journal writer] Journal writer thread started
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] 
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] 
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] 
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-07-06T15:12:19.377+0800 I CONTROL  [initandlisten] 
+2016-07-06T15:12:19.385+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-07-06T15:12:19.385+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/Yanjie/SourceCode/NodejsStudy/db/diagnostic.data'
+2016-07-06T15:12:19.386+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-07-06T15:17:22.191+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58749 #1 (1 connection now open)
+2016-07-06T15:18:51.508+0800 I NETWORK  [conn1] end connection 127.0.0.1:58749 (0 connections now open)
+2016-07-06T15:19:01.395+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58765 #2 (1 connection now open)
+2016-07-06T15:19:54.671+0800 I INDEX    [conn2] allocating new ns file D:\Yanjie\SourceCode\NodejsStudy\db\test.ns, filling with zeroes...
+2016-07-06T15:19:55.062+0800 I STORAGE  [FileAllocator] allocating new datafile D:\Yanjie\SourceCode\NodejsStudy\db\test.0, filling with zeroes...
+2016-07-06T15:19:55.062+0800 I STORAGE  [FileAllocator] creating directory D:\Yanjie\SourceCode\NodejsStudy\db\_tmp
+2016-07-06T15:19:55.430+0800 I STORAGE  [FileAllocator] done allocating datafile D:\Yanjie\SourceCode\NodejsStudy\db\test.0, size: 64MB,  took 0.332 secs
+2016-07-06T15:19:55.539+0800 I COMMAND  [conn2] command test.movie command: insert { insert: "movie", documents: [ { _id: ObjectId('577cb11aab533c1d971c426d'), name: "tutorials yiibai" } ], ordered: true } ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:25 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 607 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } protocol:op_command 847ms
+2016-07-06T15:25:29.295+0800 I COMMAND  [conn2] dropDatabase test starting
+2016-07-06T15:25:29.355+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:25:29.355+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:25:29.396+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:25:29.396+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:25:29.403+0800 I COMMAND  [conn2] dropDatabase test finished
+2016-07-06T15:25:29.403+0800 I COMMAND  [conn2] command test command: dropDatabase { dropDatabase: 1.0 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 2, w: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 4 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 106ms
+2016-07-06T15:26:23.019+0800 I INDEX    [conn2] allocating new ns file D:\Yanjie\SourceCode\NodejsStudy\db\test.ns, filling with zeroes...
+2016-07-06T15:26:23.377+0800 I STORAGE  [FileAllocator] allocating new datafile D:\Yanjie\SourceCode\NodejsStudy\db\test.0, filling with zeroes...
+2016-07-06T15:26:23.700+0800 I STORAGE  [FileAllocator] done allocating datafile D:\Yanjie\SourceCode\NodejsStudy\db\test.0, size: 64MB,  took 0.317 secs
+2016-07-06T15:26:23.812+0800 I COMMAND  [conn2] repairDatabase test
+2016-07-06T15:26:23.812+0800 I STORAGE  [conn2] repairDatabase test
+2016-07-06T15:26:25.131+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:26:25.132+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:26:25.139+0800 I INDEX    [conn2] allocating new ns file D:\Yanjie\SourceCode\NodejsStudy\db\_tmp_repairDatabase_0\test.ns, filling with zeroes...
+2016-07-06T15:26:25.495+0800 I STORAGE  [FileAllocator] allocating new datafile D:\Yanjie\SourceCode\NodejsStudy\db\_tmp_repairDatabase_0\test.0, filling with zeroes...
+2016-07-06T15:26:25.496+0800 I STORAGE  [FileAllocator] creating directory D:\Yanjie\SourceCode\NodejsStudy\db\_tmp_repairDatabase_0\_tmp
+2016-07-06T15:26:25.866+0800 I STORAGE  [FileAllocator] done allocating datafile D:\Yanjie\SourceCode\NodejsStudy\db\_tmp_repairDatabase_0\test.0, size: 64MB,  took 0.332 secs
+2016-07-06T15:26:27.374+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:26:27.374+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:26:27.420+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:26:27.420+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:26:27.443+0800 I JOURNAL  [conn2] journalCleanup...
+2016-07-06T15:26:27.443+0800 I JOURNAL  [conn2] removeJournalFiles
+2016-07-06T15:26:27.457+0800 I COMMAND  [conn2] command test.system.namespaces command: repairDatabase { repairDatabase: 1.0 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 14 }, acquireWaitCount: { w: 5 }, timeAcquiringMicros: { w: 15501 } }, Metadata: { acquireCount: { W: 2 } } } protocol:op_command 4395ms
+2016-07-06T15:31:21.499+0800 I COMMAND  [conn2] CMD: drop test.userInfo
+2016-07-06T16:28:12.557+0800 I NETWORK  [conn2] end connection 127.0.0.1:58765 (0 connections now open)
