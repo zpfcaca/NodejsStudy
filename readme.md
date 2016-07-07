@@ -55,7 +55,10 @@
 
 
 ##FAQ##
-t
+1. 在win10中全局安装一般安装在C:\Users\shumaojie\AppData\Roaming\npm\node_modules\express
+2. 在命令行中输入express 报错‘express’ 不是内部或外部命令，也不是可运行的程序，或批处理文件。
+这个还需要安装： npm  install -g express-generator
+3. 
 
 
 
