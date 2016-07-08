@@ -13,8 +13,11 @@ cache=C:\Program Files\nodejs\node_cache
 
 3. 安装插件： start->All Programes->Accessories->Command Prompt->右键（使用管理员权限打开）
   输入命令 npm install -g 插件名称 安装位置：在win10中全局安装一般安装在C:\Users\shumaojie\AppData\Roaming\npm\node_modules\
-4. 可以安装 mongodb, grunt, express
-5. 验证插件安装成功： 
+  在win7全局安装位置:C:\Program Files\nodejs\node_global
+  需要把这个路径添加到系统环境变量
+4. 使用npm必须使用管理员权限
+5. 可以安装 mongodb, grunt, express
+6. 验证插件安装成功： 
 node 
 >require("插件名")
 
