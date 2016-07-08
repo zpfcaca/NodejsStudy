@@ -1,0 +1,36 @@
+2016-07-08T08:37:53.674+0800 I CONTROL  [main] Hotfix KB2731284 or later update is not installed, will zero-out data files
+2016-07-08T08:37:53.860+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2016-07-08T08:37:53.861+0800 I STORAGE  [thread1] Service running
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] MongoDB starting : pid=2500 port=27017 dbpath=D:\Yanjie\SourceCode\NodejsStudy\db 32-bit host=HANL0265
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] db version v3.2.7
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] git version: 4249c1d2b5999ebbf1fdf3bc0e0e3b3ff5c0aaf2
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] modules: none
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten] build environment:
+2016-07-08T08:37:53.862+0800 I CONTROL  [initandlisten]     distarch: i386
+2016-07-08T08:37:53.863+0800 I CONTROL  [initandlisten]     target_arch: i386
+2016-07-08T08:37:53.863+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\Yanjie\SourceCode\NodejsStudy\db", engine: "mmapv1", journal: { enabled: true } }, systemLog: { destination: "file", path: "D:\Yanjie\SourceCode\NodejsStudy\log\MongoDB.log" } }
+2016-07-08T08:37:54.176+0800 W -        [initandlisten] Detected unclean shutdown - D:\Yanjie\SourceCode\NodejsStudy\db\mongod.lock is not empty.
+2016-07-08T08:37:54.260+0800 I JOURNAL  [initandlisten] journal dir=D:\Yanjie\SourceCode\NodejsStudy\db\journal
+2016-07-08T08:37:54.260+0800 I JOURNAL  [initandlisten] recover begin
+2016-07-08T08:37:54.269+0800 I JOURNAL  [initandlisten] recover lsn: 0
+2016-07-08T08:37:54.270+0800 I JOURNAL  [initandlisten] recover D:\Yanjie\SourceCode\NodejsStudy\db\journal\j._0
+2016-07-08T08:37:54.371+0800 I JOURNAL  [initandlisten] recover applying initial journal section with sequence number 1
+2016-07-08T08:37:54.878+0800 I JOURNAL  [initandlisten] recover cleaning up
+2016-07-08T08:37:54.878+0800 I JOURNAL  [initandlisten] removeJournalFiles
+2016-07-08T08:37:54.880+0800 I JOURNAL  [initandlisten] recover done
+2016-07-08T08:37:54.938+0800 I JOURNAL  [durability] Durability thread started
+2016-07-08T08:37:54.954+0800 I JOURNAL  [journal writer] Journal writer thread started
+2016-07-08T08:37:55.105+0800 I CONTROL  [initandlisten] 
+2016-07-08T08:37:55.105+0800 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-07-08T08:37:55.105+0800 I CONTROL  [initandlisten] 
+2016-07-08T08:37:55.105+0800 I CONTROL  [initandlisten] 
+2016-07-08T08:37:55.105+0800 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-07-08T08:37:55.106+0800 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-07-08T08:37:55.106+0800 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-07-08T08:37:55.106+0800 I CONTROL  [initandlisten] 
+2016-07-08T08:39:22.280+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-07-08T08:39:22.280+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/Yanjie/SourceCode/NodejsStudy/db/diagnostic.data'
+2016-07-08T08:39:22.282+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-07-08T08:39:23.055+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
