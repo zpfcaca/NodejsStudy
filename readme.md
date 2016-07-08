@@ -66,7 +66,8 @@ node
 
 ##FAQ##
 1. 在命令行中输入express 报错‘express’ 不是内部或外部命令，也不是可运行的程序，或批处理文件。
-这个还需要安装： npm  install -g express-generator
+   先卸载
+   这个还需要安装： npm  install -g express-generator
 2. 前端使用$.post(),后端使用node js交互
 3. 虚拟主机
 4. 利用命令行打开explorer . 打开当前文件夹
