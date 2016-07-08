@@ -42,7 +42,7 @@
 
 
 ##附加功能##
-1. 发邮件
+1.  发邮件
 2.  读写文件
 3.  socket通讯
 4.  数据库连接
@@ -56,7 +56,7 @@
 这个还需要安装： npm  install -g express-generator
 2. 前端使用$.post(),后端使用node js交互
 3. 虚拟主机
-
+4. 利用命令行打开explorer . 打开当前文件夹
 
 
 
