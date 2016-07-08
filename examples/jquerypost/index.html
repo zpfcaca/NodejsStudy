@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<!--主要用来测试html页面，与nodejs进行交互-->
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script>
+			function Pos() {
+				$.post(
+					"http://127.0.0.1:8000", {
+						"id": $("#textinput").val()
+					},
+					function(data, textStatus) {
+						alert(data);
+					}
+
+				);
+
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<input type="button" style="width: 120px;height: 20px;" onclick="Pos()" />
+		<input id="textinput" type="text" style="width: 110px;height: 20px;" />
+	</body>
+
+</html>
