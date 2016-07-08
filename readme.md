@@ -3,9 +3,22 @@
 ##在32位win7安装nodejs##
 ###步骤###
 1. 下载node.js安装程序
-2. start->All Programes->Accessories->Command Prompt->右键（使用管理员权限打开）
-3. 安装插件 npm install -g 插件名称 安装位置：在win10中全局安装一般安装在C:\Users\shumaojie\AppData\Roaming\npm\node_modules\express
-4. 可以安装 mongodb, grunt
+2. 配置npm npm配置文件一般在用户 C:\Users\yye\.npmrc
+proxy=http://gateway.zscaler.net:80/
+https-proxy=http://gateway.zscaler.net:80/
+strict-ssl=false
+registry=http://registry.cnpmjs.org
+prefix=C:\Program Files\nodejs\node_global
+cache=C:\Program Files\nodejs\node_cache
+
+3. 安装插件： start->All Programes->Accessories->Command Prompt->右键（使用管理员权限打开）
+  输入命令 npm install -g 插件名称 安装位置：在win10中全局安装一般安装在C:\Users\shumaojie\AppData\Roaming\npm\node_modules\express
+4. 可以安装 mongodb, grunt, express
+5. 验证插件安装成功： 
+node 
+>require("插件名")
+
+
 
 ##在32位win7安装mongodb##
 1. 下载安装包安装
@@ -57,6 +70,9 @@
 2. 前端使用$.post(),后端使用node js交互
 3. 虚拟主机
 4. 利用命令行打开explorer . 打开当前文件夹
+5. 调出输入法：win+R 输入 ctfmon
+
+
 
 
 
